@@ -1,0 +1,19 @@
+/* .rounded {
+    border-radius: 50%;
+} */
+
+.project { 
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+  
+  .project .rounded {
+    object-fit: cover;
+    height: 300x;
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  

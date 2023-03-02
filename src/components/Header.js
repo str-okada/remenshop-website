@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
     return (
         <header>
-            <Link to='/' >
+            <Link to='/' className="link" >
                 <img src={logo} className="logoImage" />
             </Link>
 
@@ -16,13 +16,10 @@ const Header = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <Link to='about'>About</Link>
-                    </li>
-                    <li>
                         <Link to='menu'>Menu</Link>
                     </li>
                     <li>
-                        <Link to='contact'>Contact</Link>
+                        <Link to='about'>About</Link>
                     </li>
                 </ul>
             </nav>

@@ -1,13 +1,66 @@
+.link{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: #48b4af;;
+}
+
 .logoImage {
     object-fit: cover;
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    margin-right: 10px;
   }
   
-.logoImage:hover {
-  background-color: black;
-}
-
-
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: black;
+    color: white;
+    height: 90px;
+    position: fixed;
+    z-index: 10;
+  }
   
+  header .logo h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  /* nav */
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    font-size: 19px;
+    text-decoration: none;
+    color: var(--white-color);
+    transition: all 0.2s;
+  }
+  
+  nav ul li a:hover,
+  .toplogo:hover {
+    color: #48b4af;
+  }
+  /* nav - end */
+
+  img {
+    width: 300px;
+    height: 500px;
+  }

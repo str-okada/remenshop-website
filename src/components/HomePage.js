@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomePage = () => {
     return (
-        <header className="masthead">
+        <div className="masthead">
             <div className="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div className="d-flex justify-content-center">
                     <div className="text-center">
@@ -15,7 +15,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
     )
 }
 
