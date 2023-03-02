@@ -1,13 +1,12 @@
 import React from 'react'
 import aboutImage from "../Images//about/3.jpg";
-import RamenCarousel from '../carousel/RamenCarousel';
+
 
 const About = () => {
     return (
         <div className="container text-center">
-            <div>
-                <RamenCarousel />
-            </div>
+                
+            
 
             <img src={aboutImage} className="profileImage" />
 
