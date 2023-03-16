@@ -7,15 +7,19 @@ import Menu from './components/Menu';
 
 function App() {
   return (
-    <Router>
+    <Router >
       <div className="App">
         <Header />
 
         <Routes>
-          <Route path='/' element={<HomePage />}/>
-          <Route path='/menu' element={<Menu />}/>
-          <Route path='/about' element={<About />}/>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/menu' element={<Menu />} />
+          <Route path='/about' element={<About />} />
         </Routes>
+
+        <footer>
+          Copyright © 2023 Ramen Shop <strong>Gmen</strong>
+        </footer>
 
       </div>
     </Router>

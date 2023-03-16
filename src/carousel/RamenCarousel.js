@@ -7,14 +7,14 @@ import './RamenCarousel.css'
 function RamenCarousel() {
   return (
     <Carousel>
-      <Carousel.Item >
+      <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 object-fit-cover"
           src={ramenImg4}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h2>Ramen</h2>
+          <h1>Tonkotsu ramen</h1>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -26,7 +26,7 @@ function RamenCarousel() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h2>Appetizer</h2>
+          <h1>Tantan men</h1>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -38,7 +38,7 @@ function RamenCarousel() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h2>Donburi</h2>
+          <h1>G Mega</h1>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>

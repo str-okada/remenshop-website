@@ -3,8 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="container text-center">
-      <h3>Contact us</h3>
+    <div className="cont">
       <section className="contact-section bg-black">
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5">
@@ -14,7 +13,7 @@ const Footer = () => {
                   <i className="fas fa-map-marked-alt text-primary mb-2"></i>
                   <h4 className="text-uppercase m-0">Address</h4>
                   <hr className="my-4 mx-auto" />
-                  <div className="small text-black-50">111 ramen St Richmond BC<br />R1R 1R1</div>
+                  <div className="small text-black-50">8391 Alexandra Rd, Richmond, BC<br/>V6X 3W5</div>
                 </div>
               </div>
             </div>
@@ -34,7 +33,7 @@ const Footer = () => {
                   <i className="fas fa-mobile-alt text-primary mb-2"></i>
                   <h4 className="text-uppercase m-0">Phone</h4>
                   <hr className="my-4 mx-auto" />
-                  <div className="small text-black-50">+1 xxx-xxx-xxx</div>
+                  <div className="small text-black-50">+1 6042768391</div>
                 </div>
               </div>
             </div>
@@ -46,9 +45,6 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <footer>
-        Copyright © 2023 Ramen Shop "G"
-      </footer>
     </div>
   )
 }
