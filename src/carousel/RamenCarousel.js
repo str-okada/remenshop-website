@@ -2,6 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import ramenImg4 from "../Images/carousel/4.jpg";
 import ramenImg6 from "../Images/carousel/6.jpg";
 import ramenImg8 from "../Images/carousel/8.jpg";
+import videoOne from '../videos/2.mp4'
+import videoOnee from '../videos/2.webm'
 import './RamenCarousel.css'
 
 function RamenCarousel() {
@@ -14,7 +16,7 @@ function RamenCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1>Tonkotsu ramen</h1>
+          <h1>Ramen</h1>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -26,7 +28,7 @@ function RamenCarousel() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h1>Tantan men</h1>
+          <h1>Rice</h1>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -38,7 +40,7 @@ function RamenCarousel() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h1>G Mega</h1>
+          <h1>Appertizer</h1>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>

@@ -1,0 +1,92 @@
+.ImageApp {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.ImageApp .slide {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+
+.ImageApp .show {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fade 1.5s ease-in-out;
+}
+
+.ImageApp .show>div {
+    width: 100%;
+    height: 100%;
+}
+
+.ImageApp img {
+    width: 100%;
+    height: 100%;
+}
+
+@-webkit-keyframes trans {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+@keyframes trans {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.ImageApp .not-show {
+    display: none;
+}
+
+.ImageApp .prev {
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+}
+
+.ImageApp .next {
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+}
+
+.ImageApp button {
+    border: 0;
+    background-color: Transparent;
+    font-size: 20px;
+}
+
+.ImageApp button:hover,
+.ImageApp .dot:hover,
+.ImageApp .active {
+    background-color: #717171;
+    opacity: 1;
+}

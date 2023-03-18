@@ -14,12 +14,17 @@ import r2 from '../Images/menu/r2.jpg'
 import img12 from "../Images/about/12.jpg";
 import aboutImage from "../Images/about/3.jpg";
 
-
+import ImageCarousel from "../carousel/ImageCarousel.js";
+import GalleryCarousel from '../carousel/GalleryCarousel';
+import Products from './Products';
 
 const Menu = () => {
   return (
     <div className="compo">
       <RamenCarousel />
+
+      <Products/>
+      
       <section className="home">
         <div className="slide">
           <div className="content">
@@ -28,14 +33,30 @@ const Menu = () => {
             <a href="https://h5.auroratech.top/#/" className="btn">Order Now</a>
           </div>
         </div>
-
-        <img className="aboutImage" src={img12} />
-
       </section>
+      
+      <ImageCarousel>
+        <div>
+          <img
+            src="https://www.w3schools.com/howto/img_snow_wide.jpg"
+            alt="img1"
+          />
+        </div>
+        <div>
+          <img
+            src="https://www.w3schools.com/howto/img_woods_wide.jpg"
+            alt="img2"
+          />
+        </div>
+        <div>
+          <img
+            src="https://www.w3schools.com/howto/img_lights_wide.jpg"
+            alt="img3"
+          />
+        </div>
+      </ImageCarousel>
 
-
-
-
+      <GalleryCarousel />
 
       <Footer />
     </div>

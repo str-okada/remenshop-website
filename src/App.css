@@ -1,5 +1,5 @@
 :root {
-  --peru: #a44a4a;
+  --peru: #311e1e;
   --black: #222;
   --white: #fff;
   --light-black: #666;
@@ -33,8 +33,6 @@
   user-select: none;
   pointer-events: none;
 }
-
-/* background: url(images/home-slide-1.jpg) no-repeat; */
 
 html {
   font-size: 62.5%;
@@ -120,12 +118,6 @@ section{
   font-size: 50px;
 }
 
-.aboutImage {
-  object-fit: cover;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-}
 
 
 
